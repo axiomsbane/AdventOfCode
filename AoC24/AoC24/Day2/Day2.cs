@@ -66,10 +66,7 @@ public class Day2
     {
         string fileContent = File.ReadAllText("/Users/axiom/Desktop/GitHub_Repos/AdventOfCode/AoC24/AoC24/Day2/input.txt");
         List<int[]> lines = fileContent.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries)
-            .Map(str =>
-            {
-                return str.Split(" ").Select(int.Parse).ToArray();
-            }).ToList();
+            .Map(str => str.Split(" ").Select(int.Parse).ToArray()).ToList();
         return lines;
     }
 }
