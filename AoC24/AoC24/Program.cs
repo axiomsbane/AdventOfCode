@@ -2,5 +2,6 @@
 
 using AoC24.Day1;
 using AoC24.Day2;
+using AoC24.Day3;
 
-new Day2().SolveP2();
+new Day3().SolveP1();
