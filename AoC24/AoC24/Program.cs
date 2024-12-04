@@ -4,4 +4,4 @@ using AoC24.Day1;
 using AoC24.Day2;
 using AoC24.Day3;
 
-new Day3().SolveP1();
+new Day3().SolveP2();
